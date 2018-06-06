@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.view_model_layout.*
 class ViewModelAndLiveDataActivity : AppCompatActivity() {
 
     private lateinit var scoreViewModel: ScoreViewModelLiveData
-    private val factory = ViewModelFactory();
+    private val factory = ViewModelFactory()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

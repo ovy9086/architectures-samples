@@ -45,6 +45,7 @@ class TickLiveData : ViewModel() {
         timer.scheduleAtFixedRate(object : TimerTask() {
             override fun run() {
                 val nextData = data.value!! + 1
+                Log.d("TIMER", "Running $nextData")
                 data.postValue(nextData)
             }
 

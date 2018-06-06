@@ -21,6 +21,8 @@
         <activity android:name=".ViewModelAndLiveDataActivity" />
         <activity android:name=".LiveDataLifecycleAwareDemo" />
         <activity android:name=".rx.RxViewModelActivity" />
+        <activity android:name=".rx.RxMappingsViewModelActivity" />
+        <activity android:name=".MediocreActivity" />
     </application>
 
 </manifest>

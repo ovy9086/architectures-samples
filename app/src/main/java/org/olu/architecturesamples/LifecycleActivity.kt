@@ -15,6 +15,7 @@ class LifecycleActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         lifecycle.addObserver(LocationListener(
                 lifecycle,
                 this.getSystemService(Context.LOCATION_SERVICE) as LocationManager,
@@ -23,6 +24,7 @@ class LifecycleActivity : AppCompatActivity() {
 
     fun handleLocation(location: Location) {
     }
+
 }
 
 
